@@ -67,8 +67,27 @@ export default function CheckoutPage() {
     if (!validatePago()) return;
     setStep('procesando');
     await new Promise(r => setTimeout(r, 2500));
+
+    // Save order
+    let orderId = `VAN-${Date.now().toString().slice(-6)}`;
+    try {
+      const res = await fetch('/api/pedidos', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          cliente: datos,
+          items: items.map(i => ({ id: i.id, nombre: i.nombre, precio: i.precio, cantidad: i.cantidad, categoria: i.categoria })),
+          total: totalPrice,
+        }),
+      });
+      if (res.ok) {
+        const order = await res.json();
+        orderId = order.id;
+      }
+    } catch { /* continue even if order save fails */ }
+
     clearCart();
-    router.push(`/pedido-confirmado?nombre=${encodeURIComponent(datos.nombre)}&email=${encodeURIComponent(datos.email)}&total=${totalPrice}`);
+    router.push(`/pedido-confirmado?nombre=${encodeURIComponent(datos.nombre)}&email=${encodeURIComponent(datos.email)}&total=${totalPrice}&id=${orderId}`);
   };
 
   const formatCardNumber = (v: string) => {

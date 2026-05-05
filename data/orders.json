@@ -1,0 +1,164 @@
+[
+  {
+    "id": "VAN-100001",
+    "fecha": "2025-04-20T10:15:00Z",
+    "estado": "retirado",
+    "cliente": { "nombre": "María", "apellido": "González", "email": "maria@gmail.com", "telefono": "099123456" },
+    "items": [
+      { "id": "1", "nombre": "Paracetamol 500mg x 20 comp.", "precio": 320, "cantidad": 2, "categoria": "medicamentos" },
+      { "id": "9", "nombre": "Gel Antibacterial 250ml", "precio": 280, "cantidad": 1, "categoria": "higiene" }
+    ],
+    "total": 920
+  },
+  {
+    "id": "VAN-100002",
+    "fecha": "2025-04-21T14:30:00Z",
+    "estado": "retirado",
+    "cliente": { "nombre": "Carlos", "apellido": "Pérez", "email": "carlos.p@hotmail.com", "telefono": "098765432" },
+    "items": [
+      { "id": "5", "nombre": "Crema Hidratante Facial SPF 30", "precio": 890, "cantidad": 1, "categoria": "cosmetica" },
+      { "id": "7", "nombre": "Protector Solar SPF 50+ 200ml", "precio": 760, "cantidad": 1, "categoria": "cosmetica" }
+    ],
+    "total": 1650
+  },
+  {
+    "id": "VAN-100003",
+    "fecha": "2025-04-22T09:00:00Z",
+    "estado": "retirado",
+    "cliente": { "nombre": "Ana", "apellido": "Rodríguez", "email": "ana.rod@gmail.com", "telefono": "091234567" },
+    "items": [
+      { "id": "2", "nombre": "Ibuprofeno 400mg x 20 comp.", "precio": 450, "cantidad": 1, "categoria": "medicamentos" },
+      { "id": "4", "nombre": "Vitamina C 1000mg x 30 comp.", "precio": 420, "cantidad": 2, "categoria": "medicamentos" }
+    ],
+    "total": 1290
+  },
+  {
+    "id": "VAN-100004",
+    "fecha": "2025-04-23T16:45:00Z",
+    "estado": "pendiente",
+    "cliente": { "nombre": "Luis", "apellido": "Martínez", "email": "luism@outlook.com", "telefono": "097654321" },
+    "items": [
+      { "id": "3", "nombre": "Omeprazol 20mg x 14 caps.", "precio": 580, "cantidad": 1, "categoria": "medicamentos" }
+    ],
+    "total": 580
+  },
+  {
+    "id": "VAN-100005",
+    "fecha": "2025-04-24T11:20:00Z",
+    "estado": "retirado",
+    "cliente": { "nombre": "Sofía", "apellido": "López", "email": "sofia.l@gmail.com", "telefono": "094321098" },
+    "items": [
+      { "id": "6", "nombre": "Sérum Vitamina C Antioxidante", "precio": 1250, "cantidad": 1, "categoria": "cosmetica" },
+      { "id": "10", "nombre": "Pasta Dental Blanqueadora 90g", "precio": 210, "cantidad": 2, "categoria": "higiene" }
+    ],
+    "total": 1670
+  },
+  {
+    "id": "VAN-100006",
+    "fecha": "2025-04-25T13:10:00Z",
+    "estado": "retirado",
+    "cliente": { "nombre": "Diego", "apellido": "Fernández", "email": "diegof@gmail.com", "telefono": "099887766" },
+    "items": [
+      { "id": "1", "nombre": "Paracetamol 500mg x 20 comp.", "precio": 320, "cantidad": 3, "categoria": "medicamentos" },
+      { "id": "8", "nombre": "Champú Anticaída 400ml", "precio": 540, "cantidad": 1, "categoria": "higiene" }
+    ],
+    "total": 1500
+  },
+  {
+    "id": "VAN-100007",
+    "fecha": "2025-04-26T10:05:00Z",
+    "estado": "cancelado",
+    "cliente": { "nombre": "Valentina", "apellido": "Suárez", "email": "vale.s@gmail.com", "telefono": "092345678" },
+    "items": [
+      { "id": "7", "nombre": "Protector Solar SPF 50+ 200ml", "precio": 760, "cantidad": 2, "categoria": "cosmetica" }
+    ],
+    "total": 1520
+  },
+  {
+    "id": "VAN-100008",
+    "fecha": "2025-04-27T15:30:00Z",
+    "estado": "retirado",
+    "cliente": { "nombre": "Mateo", "apellido": "García", "email": "mateo.g@gmail.com", "telefono": "096543210" },
+    "items": [
+      { "id": "4", "nombre": "Vitamina C 1000mg x 30 comp.", "precio": 420, "cantidad": 1, "categoria": "medicamentos" },
+      { "id": "9", "nombre": "Gel Antibacterial 250ml", "precio": 280, "cantidad": 2, "categoria": "higiene" }
+    ],
+    "total": 980
+  },
+  {
+    "id": "VAN-100009",
+    "fecha": "2025-04-28T09:50:00Z",
+    "estado": "pendiente",
+    "cliente": { "nombre": "Lucía", "apellido": "Torres", "email": "lucia.t@hotmail.com", "telefono": "093456789" },
+    "items": [
+      { "id": "5", "nombre": "Crema Hidratante Facial SPF 30", "precio": 890, "cantidad": 1, "categoria": "cosmetica" },
+      { "id": "6", "nombre": "Sérum Vitamina C Antioxidante", "precio": 1250, "cantidad": 1, "categoria": "cosmetica" }
+    ],
+    "total": 2140
+  },
+  {
+    "id": "VAN-100010",
+    "fecha": "2025-04-29T12:00:00Z",
+    "estado": "retirado",
+    "cliente": { "nombre": "Nicolás", "apellido": "Herrera", "email": "nico.h@gmail.com", "telefono": "098012345" },
+    "items": [
+      { "id": "2", "nombre": "Ibuprofeno 400mg x 20 comp.", "precio": 450, "cantidad": 2, "categoria": "medicamentos" },
+      { "id": "3", "nombre": "Omeprazol 20mg x 14 caps.", "precio": 580, "cantidad": 1, "categoria": "medicamentos" }
+    ],
+    "total": 1480
+  },
+  {
+    "id": "VAN-100011",
+    "fecha": "2025-04-30T17:15:00Z",
+    "estado": "retirado",
+    "cliente": { "nombre": "Isabella", "apellido": "Díaz", "email": "isa.d@gmail.com", "telefono": "091122334" },
+    "items": [
+      { "id": "8", "nombre": "Champú Anticaída 400ml", "precio": 540, "cantidad": 1, "categoria": "higiene" },
+      { "id": "10", "nombre": "Pasta Dental Blanqueadora 90g", "precio": 210, "cantidad": 3, "categoria": "higiene" }
+    ],
+    "total": 1170
+  },
+  {
+    "id": "VAN-100012",
+    "fecha": "2025-05-01T10:40:00Z",
+    "estado": "retirado",
+    "cliente": { "nombre": "Sebastián", "apellido": "Morales", "email": "seba.m@gmail.com", "telefono": "095667788" },
+    "items": [
+      { "id": "1", "nombre": "Paracetamol 500mg x 20 comp.", "precio": 320, "cantidad": 1, "categoria": "medicamentos" },
+      { "id": "7", "nombre": "Protector Solar SPF 50+ 200ml", "precio": 760, "cantidad": 1, "categoria": "cosmetica" }
+    ],
+    "total": 1080
+  },
+  {
+    "id": "VAN-100013",
+    "fecha": "2025-05-02T14:00:00Z",
+    "estado": "pendiente",
+    "cliente": { "nombre": "Camila", "apellido": "Núñez", "email": "cami.n@gmail.com", "telefono": "092233445" },
+    "items": [
+      { "id": "4", "nombre": "Vitamina C 1000mg x 30 comp.", "precio": 420, "cantidad": 2, "categoria": "medicamentos" },
+      { "id": "5", "nombre": "Crema Hidratante Facial SPF 30", "precio": 890, "cantidad": 1, "categoria": "cosmetica" }
+    ],
+    "total": 1730
+  },
+  {
+    "id": "VAN-100014",
+    "fecha": "2025-05-03T11:25:00Z",
+    "estado": "retirado",
+    "cliente": { "nombre": "Tomás", "apellido": "Castillo", "email": "tomas.c@outlook.com", "telefono": "097788990" },
+    "items": [
+      { "id": "9", "nombre": "Gel Antibacterial 250ml", "precio": 280, "cantidad": 3, "categoria": "higiene" }
+    ],
+    "total": 840
+  },
+  {
+    "id": "VAN-100015",
+    "fecha": "2025-05-04T16:00:00Z",
+    "estado": "pendiente",
+    "cliente": { "nombre": "Florencia", "apellido": "Vargas", "email": "flor.v@gmail.com", "telefono": "094455667" },
+    "items": [
+      { "id": "6", "nombre": "Sérum Vitamina C Antioxidante", "precio": 1250, "cantidad": 1, "categoria": "cosmetica" },
+      { "id": "2", "nombre": "Ibuprofeno 400mg x 20 comp.", "precio": 450, "cantidad": 1, "categoria": "medicamentos" }
+    ],
+    "total": 1700
+  }
+]

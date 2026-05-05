@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { Save, ArrowLeft, AlertCircle } from 'lucide-react';
 import { Product } from '@/context/CartContext';
+import AdminShell from '@/components/AdminShell';
 
 interface ProductFormProps {
   initial?: Partial<Product>;
@@ -72,17 +73,14 @@ export default function ProductForm({ initial, onSubmit, title }: ProductFormPro
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="bg-blue-900 text-white px-4 sm:px-6 py-4">
-        <div className="max-w-3xl mx-auto flex items-center gap-4">
-          <Link href="/admin/productos" className="text-blue-300 hover:text-white transition-colors">
-            <ArrowLeft size={20} />
+    <AdminShell>
+      <div className="max-w-2xl space-y-4">
+        <div className="flex items-center gap-3">
+          <Link href="/admin/productos" className="p-1.5 text-gray-400 hover:text-gray-600 hover:bg-gray-100 rounded-lg transition-colors">
+            <ArrowLeft size={18} />
           </Link>
-          <h1 className="font-bold text-lg">{title}</h1>
+          <h1 className="text-xl font-black text-gray-800">{title}</h1>
         </div>
-      </div>
-
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 py-8">
         <form onSubmit={handleSubmit} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 space-y-5">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -220,6 +218,6 @@ export default function ProductForm({ initial, onSubmit, title }: ProductFormPro
           </div>
         </form>
       </div>
-    </div>
+    </AdminShell>
   );
 }

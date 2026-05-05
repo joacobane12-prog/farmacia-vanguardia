@@ -25,7 +25,7 @@ export default function AdminLoginPage() {
       const data = await res.json();
       if (res.ok) {
         localStorage.setItem('admin_token', data.token);
-        router.push('/admin/productos');
+        router.push('/admin/dashboard');
       } else {
         setError('Contraseña incorrecta');
       }

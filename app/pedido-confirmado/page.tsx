@@ -10,8 +10,7 @@ function ConfirmadoContent() {
   const nombre = params.get('nombre') || 'Cliente';
   const email = params.get('email') || '';
   const total = params.get('total') || '0';
-
-  const orderId = `VAN-${Date.now().toString().slice(-6)}`;
+  const orderId = params.get('id') || `VAN-${Date.now().toString().slice(-6)}`;
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-16 text-center">
