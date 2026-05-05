@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "nombre": "Paracetamol 500mg x 20 comp.",
+    "descripcion": "Analgésico y antipirético. Alivia el dolor leve a moderado y reduce la fiebre.",
+    "precio": 320,
+    "categoria": "medicamentos",
+    "imagen": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop&auto=format",
+    "stock": 150,
+    "activo": true,
+    "destacado": true
+  },
+  {
+    "id": "2",
+    "nombre": "Ibuprofeno 400mg x 20 comp.",
+    "descripcion": "Antiinflamatorio no esteroideo. Indicado para dolor, fiebre e inflamación.",
+    "precio": 450,
+    "categoria": "medicamentos",
+    "imagen": "https://images.unsplash.com/photo-1550572017-4fcdbb59cc32?w=400&h=400&fit=crop&auto=format",
+    "stock": 120,
+    "activo": true,
+    "destacado": true
+  },
+  {
+    "id": "3",
+    "nombre": "Omeprazol 20mg x 14 caps.",
+    "descripcion": "Inhibidor de la bomba de protones. Reduce la acidez gástrica.",
+    "precio": 580,
+    "categoria": "medicamentos",
+    "imagen": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400&h=400&fit=crop&auto=format",
+    "stock": 80,
+    "activo": true,
+    "destacado": false
+  },
+  {
+    "id": "4",
+    "nombre": "Vitamina C 1000mg x 30 comp.",
+    "descripcion": "Suplemento vitamínico para reforzar el sistema inmunológico.",
+    "precio": 420,
+    "categoria": "medicamentos",
+    "imagen": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400&h=400&fit=crop&auto=format",
+    "stock": 200,
+    "activo": true,
+    "destacado": true
+  },
+  {
+    "id": "5",
+    "nombre": "Crema Hidratante Facial SPF 30",
+    "descripcion": "Hidratación profunda con protección solar. Apta para todo tipo de piel.",
+    "precio": 890,
+    "categoria": "cosmetica",
+    "imagen": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=400&fit=crop&auto=format",
+    "stock": 45,
+    "activo": true,
+    "destacado": true
+  },
+  {
+    "id": "6",
+    "nombre": "Sérum Vitamina C Antioxidante",
+    "descripcion": "Sérum concentrado que ilumina y unifica el tono de la piel.",
+    "precio": 1250,
+    "categoria": "cosmetica",
+    "imagen": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&h=400&fit=crop&auto=format",
+    "stock": 30,
+    "activo": true,
+    "destacado": false
+  },
+  {
+    "id": "7",
+    "nombre": "Protector Solar SPF 50+ 200ml",
+    "descripcion": "Protección solar de amplio espectro UVA/UVB. No graso, resistente al agua.",
+    "precio": 760,
+    "categoria": "cosmetica",
+    "imagen": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=400&h=400&fit=crop&auto=format",
+    "stock": 60,
+    "activo": true,
+    "destacado": true
+  },
+  {
+    "id": "8",
+    "nombre": "Champú Anticaída 400ml",
+    "descripcion": "Fórmula enriquecida con biotina y keratina para fortalecer el cabello.",
+    "precio": 540,
+    "categoria": "higiene",
+    "imagen": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=400&h=400&fit=crop&auto=format",
+    "stock": 70,
+    "activo": true,
+    "destacado": false
+  },
+  {
+    "id": "9",
+    "nombre": "Gel Antibacterial 250ml",
+    "descripcion": "Desinfectante de manos con 70% de alcohol. Mata el 99.9% de gérmenes.",
+    "precio": 280,
+    "categoria": "higiene",
+    "imagen": "https://images.unsplash.com/photo-1584634731340-e5038a19b3ba?w=400&h=400&fit=crop&auto=format",
+    "stock": 180,
+    "activo": true,
+    "destacado": true
+  },
+  {
+    "id": "10",
+    "nombre": "Pasta Dental Blanqueadora 90g",
+    "descripcion": "Blanquea y protege el esmalte dental. Con flúor activo.",
+    "precio": 210,
+    "categoria": "higiene",
+    "imagen": "https://images.unsplash.com/photo-1559589689-577aabd1db4f?w=400&h=400&fit=crop&auto=format",
+    "stock": 100,
+    "activo": true,
+    "destacado": false
+  }
+]
