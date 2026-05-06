@@ -29,7 +29,7 @@ function ConfirmadoContent() {
             <p className="font-bold text-blue-700 font-mono">{orderId}</p>
           </div>
           <div className="text-right">
-            <p className="text-xs text-gray-500 uppercase tracking-wide">Total pagado</p>
+            <p className="text-xs text-gray-500 uppercase tracking-wide">Total del pedido</p>
             <p className="font-bold text-gray-800 text-xl">${Number(total).toLocaleString('es-UY')}</p>
           </div>
         </div>
@@ -52,9 +52,15 @@ function ConfirmadoContent() {
         </div>
       </div>
 
-      <div className="bg-blue-50 border border-blue-100 rounded-2xl p-5 mb-8">
+      <div className="bg-blue-50 border border-blue-100 rounded-2xl p-5 mb-4">
         <p className="text-blue-800 font-medium">
           Tu pedido estará listo para retirar en el local. Presentá el número de pedido al momento del retiro.
+        </p>
+      </div>
+
+      <div className="bg-amber-50 border border-amber-200 rounded-2xl p-5 mb-8">
+        <p className="text-amber-800 font-medium text-sm">
+          Tenes <strong>24 horas</strong> para retirar tu pedido. Si no lo retiras en ese plazo, será cancelado automáticamente y recibirás un aviso a tu email.
         </p>
       </div>
 
